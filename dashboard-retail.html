@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Dashboards</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Header -->
+				<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo"><strong>Portfolio</strong> by Parinita Chowdhary</a>
+					<ul class="icons">
+						<li><a href="index.html" class="button">Home</a></li>
+						<li><a href="#" class="button">Resume</a></li>
+						<li><a href="https://www.linkedin.com/in/parinita081/" class="button">LinkedIn</a></li>
+						<li><a href="https://public.tableau.com/app/profile/parinita" class="button">Tableau Public</a>
+						</li>
+					</ul>
+				</header>
+
+				<!-- Content -->
+				<section>
+					<header class="main">
+						<h1>Overview</h1>
+					</header>
+
+					<p>
+						This project focused on analysing the transactions of a retail store for the time between
+						October 2019 to October 2020.
+					</p>
+					<hr class="major" />
+
+
+					<h2>Dataset</h2>
+					<p>
+						RFWD project provided the retail dataset in csv format. It was a simple and clean dataset, with
+						more than 75,000 rows. The dataset had the following information on a day-to-day basis, from
+						October 2019 to October 2020:
+					<ul>
+						<li>transaction_date</li>
+						<li>transaction_hour</li>
+						<li>location_state</li>
+						<li>location_city </li>
+						<li>rewards_number </li>
+						<li>rewards_member </li>
+						<li>num_of_items </li>
+						<li>coupon_flag </li>
+						<li>discount_amt </li>
+						<li>order_amt</li>
+
+					</ul>
+					</p>
+
+
+					<h2>Analysis</h2>
+					<p>
+					<ul>
+						<li>First, I identified important Key Performance Indicators in the data (Sales, No of Items
+							sold, No of
+							transactions) and I created BAN(Big Accessible Numbers) in Tableau to show summary
+							statistics for the
+							KPIs </li>
+						<li>Also, I created area charts to show the KPIs within the month at a day level, this help the
+							executives to identify if there’s any variation in the values of KPI within a month (to see
+							if
+							the data points to patterns in a month like people may shopping more during any holidays in
+							the
+							month) </li>
+						<li>I also found that rewards members are accountable for a certain percentage of KPIs, which I
+							demonstrated with pie chart.</li>
+						<li>Since the data had geographical locations (State and City), I decided to create maps and
+							used
+							map layers to identify the states and cities with most and least sales, transactions and
+							items
+							sold.</li>
+						<li>The business stakeholders might be interested in seeing the most popular and least popular
+							cities, which I identified with help of set calculations in Tableau.</li>
+						<li>I also created a heatmap to identify which days and time of the day were more popular with
+							the
+							customers.</li>
+					</ul>
+					</p>
+
+
+					<h2>Dashboard</h2>
+					<p>
+						To put everything together in a single sheet, I used the dashboard feature. Here, I added
+						interactivity. I created filters for year and month using parameters. I also allowed users to
+						switch the metric between sales, items and transactions for the map and heatmap.
+					</p>
+
+					<h2>Reflection</h2>
+					<p>
+						Overall, I found working on this project to be a highly enjoyable experience. Although I get
+						stuck sometimes with finding patterns in the data, but asking relevant questions always helps. I
+						have realised that as I create more projects, I am becoming proficient in identifying KPIs as
+						well as creating visuals in Tableau. I completed this project in 3 days, working around 5 hours
+						a day. If I had more time, I would like to make the interactivity more polished with adding a
+						menu, download options for the dashboard, etc.
+					</p>
+
+					<hr class="major" />
+
+					<div class='tableauPlaceholder' id='viz1687722469994' style='position: relative'><noscript><a
+								href='#'><img alt=' '
+									src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;RW&#47;RWFDRetail&#47;Dashboard&#47;1_rss.png'
+									style='border: none' /></a></noscript><object class='tableauViz'
+							style='display:none;'>
+							<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+							<param name='embed_code_version' value='3' />
+							<param name='site_root' value='' />
+							<param name='name' value='RWFDRetail&#47;Dashboard' />
+							<param name='tabs' value='no' />
+							<param name='toolbar' value='yes' />
+							<param name='static_image'
+								value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;RW&#47;RWFDRetail&#47;Dashboard&#47;1.png' />
+							<param name='animate_transition' value='yes' />
+							<param name='display_static_image' value='yes' />
+							<param name='display_spinner' value='yes' />
+							<param name='display_overlay' value='yes' />
+							<param name='display_count' value='yes' />
+							<param name='language' value='en-US' />
+						</object></div>
+					<script
+						type='text/javascript'>                    var divElement = document.getElementById('viz1687722469994'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '1200px'; vizElement.style.height = '1127px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+				</section>
+
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
