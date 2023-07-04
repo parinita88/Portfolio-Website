@@ -34,8 +34,3 @@ Credits:
 	Icons:
 		Font Awesome (fontawesome.io)
 		Icons8
-
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
