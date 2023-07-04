@@ -42,9 +42,8 @@
 					</header>
 
 					<p>
-						This project focused on analysing the transactions of a retail store for the time between
-						October 2019 to October 2020. After data analysis, patterns were identified in the data 
-						and dashboard was created using Tableau.
+						This project aimed to analyze 75,000 transactions of a retail store from October 2019 to October 2020. Through data 
+						analysis, patterns were discovered in the data, and a dashboard was developed using Tableau.
 					</p>
 					<hr class="major" />
 
@@ -77,56 +76,61 @@
 							How many items were sold?
 						</li>
 						<li>
-							What is the value of Sales in the Retail store?
+							How much money did the retail store make from selling products?
 						</li>
 						<li>
-							How many orders were placed?
+							How many transactions took place?
 						</li>
 						<li>
-							What is trend on each day of the month?
+							How does the sales pattern change on each day of the month?
 						</li>
 						<li>
-							How does the sales compare to the last month?
+							Are the sales higher or lower compared to the previous month?
 						</li>
 						<li>
-							How many orders and items were bought by rewards members?
+							How many transactions were done and items were purchased by customers who are part of the rewards program?
 						</li>
 						<li>
-							How is the sale of item distributed across the countrty?
+							How are the sales of items spread out across different states and cities in the country?
 						</li>
 						<li>
-							which are the top 5 performing cities? bottom 5 performing cities?
+							Which cities have the highest and lowest sales performance?
 						</li>
 						<li>
-							how do orders vary by week of the day? time of the day?
+							Does the number of transactions vary based on the specific day of the week and time of day?
 						</li>
 					</ul>
 					</p>
 
 					<p>
-						Starting with these questions, helped me to see the following patterns in the data -
+						Starting with the above-mentioned questions, I identified the following patterns in the data -
 					<ul>
 					<li>
-						The rewards members bring in around 30% of sales every month. The rewards members may be more be more
-						inclined to be repeat customers, but this cannot be verified in this dataset as we do not have more customer 
-						information.
+						The rewards program plays a significant role in driving approximately 30% of monthly sales. However, due to the 
+						limited customer information available in this dataset, it is challenging to confirm whether rewards members are more 
+						likely to be repeat customers.
 					</li>
 					<li>
-						We only have data for sales in five states. But there's variation in sales among these states. For instance,
-						sales are better in Florida than the other states. More data will be required to assess why some states have
-						more sales - do they have more customers? more stores? better discounts?
+						The dataset only provides sales data for five states, revealing variations in sales among them. For instance, 
+						Florida outperforms the other states in terms of sales. To better understand the reasons behind these variations, 
+						additional data is required. Factors such as volume of customers, distribution of stores, and effectiveness of any
+						promotions or discounts need to be considered.
 					</li>
 					<li>
-						Depending upon the month, some times of day and days of week have better sales than others 
-						(pointing to seasonality in the data) - which is important to know as the store might need to 
-						restock inventory frequently during these times.
+						It is important to analyze the sales patterns across different times of the day and days of the week. Understanding 
+						these patterns is crucial for effective inventory management, particularly during 
+						peak times when frequent restocking may be necessary.
 					</li>
 					<li>
-						Sales in some months is more than others, and there's also variation between each day of the month, which 
-						could be due to people shopping more during holidays like christmas.
-						The variation needs to be tracked, as it can have significant impact specially if the retail store operates 
-						on low margin. The profit data was unavailable in the dataset. 
-						Also, the tracking will also help to track the impact of any sales promotions, which the store may be running.
+						There are noticeable variations in sales between different months, suggesting the presence of seasonality within the data. 
+						Furthermore, there is also variation in sales within each month. These fluctuations can be attributed to factors like holiday 
+						seasons, such as Christmas, when consumer spending tends to increase.
+
+						Tracking and analyzing these variations is crucial, particularly for retail stores operating on low profit margins. Understanding 
+						the patterns and trends in sales will enable better inventory management and strategic decision-making.
+						
+						Additionally, tracking these variations will help assess the effectiveness and impact of any ongoing sales promotions implemented 
+						by the store. This information can inform future marketing strategies and help optimize sales performance.
 					</li>
 				</ul>
 					</p>
@@ -135,30 +139,42 @@
 					<ul>
 						I created wireframes of the dashboard. Then, I created the dashboard using Tableau
 						<p>
-							<li>First, I displayed trends for important Key Performance Indicators in the 
-								data (Sales, No of Items sold, No of Orders). Here, I used BAN(Big Accessible Numbers) in Tableau to show 
-								summary statistics for the KPIs, added context by showing change in the KPI as compared to the previous month.
-								Also, I created area charts to show the KPIs within the month at a day level, this help the
-								executives to identify if there’s any variation in the values of KPI within a month (to
-								see if there are patterns in a month like people may shopping more during any holidays
-								in the month) </li>
-							<li> Since the data had geographical locations (State and City), I decided to create maps and
-								used
-								map layers to identify the states and cities with most and least sales, orders and
-								items
-								sold.</li>
-							<li>Further, as the data varied between cities as well, I displayed the most popular and least
-								popular
-								cities, which I identified with help of set calculations in Tableau.</li>
-							<li>I also created a heatmap to identify which days and time of the day were more popular
-								with
-								the
-								customers.</li>
-						<li>
-						To enhance the user experience, I added interactivity like filters to select the month and year. I also allowed 
-						users to switch the metric between sales, items and orders for the map and heatmap.
-						I selectively used colour to highlight areas of key performance (sales/items sold/orders)
-					</li>
+							<li>
+								First, I presented trends for essential Key Performance Indicators (KPIs) in the data, such as Sales, Number of Items Sold, 
+								and Number of Transactions. To provide a clear overview, I utilized BAN (Big Accessible Numbers) in Tableau, showcasing summary 
+								statistics for these KPIs. Additionally, I included contextual information by displaying the changes in KPIs compared to the 
+								previous month.
+								Furthermore, I created area charts to depict the KPIs at a daily level within each month. This visualization enables executives 
+								to identify any variations in the KPI values throughout the month, helping them identify patterns, such as increased shopping 
+								during holidays or specific events within the month.
+							</li>
+							<li> 
+								Since the data includes geographical information such as state and city, I leveraged this data to create maps. By utilizing 
+								map layers, I was able to identify the states and cities with the highest and lowest sales, transactions, and items sold. 
+								This visualization approach provides valuable insights into geographic trends and performance, helping to pinpoint areas of 
+								high and low activity within the dataset.
+							
+							</li>
+							<li>
+								Furthermore, considering the variations in data across different cities, I showcased the most popular and least popular cities. 
+								To identify these cities, I employed set calculations in Tableau, allowing for a clear distinction between high and low performing 
+								cities.
+							</li>
+							<li>In addition, I created a heatmap to analyze customer preferences in terms of specific days and times. This heatmap visualizes the 
+								popularity of different time intervals throughout the day, helping to identify the periods when customers were more active or 
+								engaged.
+								These visualizations provide valuable insights into the customer behavior patterns, enabling businesses to make informed decisions based on 
+								customer preferences and trends.
+							</li>
+							<li>
+							To improve the user experience, I implemented interactive features such as filters to select specific months and years. 
+							Users also have the flexibility to switch between different metrics, including sales, items, and transactions, for the 
+							map and heatmap visualizations. 
+							I strategically used color in the map to highlight states with high values for metrics such as sales, items sold, and transactions. 
+							This visual emphasis draws attention to areas of significant performance. A similar strategy was applied to the heatmap, enabling 
+							the identification of days and times with high metric values. This approach facilitates the key stakeholders to find areas of significant 
+							performance in a quick glance.
+							</li>
 					</p>
 				</ul>
 
@@ -173,8 +189,11 @@
 						menu, download options for the dashboard, etc.
 					</p>
 
+					
+
 					<hr class="major" />
 
+					<h2>Tableau Dashboard</h2>
 					<div class='tableauPlaceholder' id='viz1688438819907' style='position: relative'><noscript><a
 								href='#'><img alt=' '
 									src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;RW&#47;RWFDRetail&#47;Dashboard&#47;1_rss.png'
