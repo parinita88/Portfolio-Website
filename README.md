@@ -2,9 +2,7 @@
 
 Hi! :wave:
 
-Created using template - Editorial by HTML5 UP
-
-showcases my data analysis projects created using SQL(postgreSQL), Python and Tableau
+This website showcases my data analysis projects created using SQL(postgreSQL), Python and Tableau
 
 Connect with me:
 
