@@ -1,11 +1,13 @@
 # Portfolio Website of Parinita Chowdhary
 
-Hi! :wave:
+Hi there, I'm Parinita Chowdhary! Welcome to my data-driven world! :wave:
 
-This website showcases my data analysis projects created using SQL(postgreSQL), Python and Tableau
+Here, you'll find a collection of my personal projects showcasing my passion for uncovering actionable insights through data. 
+I believe in the transformative power of data and its ability to drive better decision-making.
+
+Explore my diverse portfolio, featuring projects spanning various tools, and techniques. Each project is designed to demonstrate my expertise in data analytics, visualization, as well as my commitment to continual learning and growth.
 
 Connect with me:
-
 
 <a href="https://www.linkedin.com/in/parinita081/">
 <image align='left' alt="LinkedIn" width="30px" src="https://github.com/parinita88/Portfolio-Website/blob/main/images/linkedin.png?raw=true" />
